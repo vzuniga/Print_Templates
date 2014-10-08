@@ -252,7 +252,7 @@
 		<band splitType="Stretch"/>
 	</background>
 	<title>
-		<band height="265" splitType="Stretch">
+		<band height="300" splitType="Stretch">
 			<staticText>
 				<reportElement key="staticText-11" mode="Opaque" x="305" y="0" width="266" height="93" backcolor="#CCCCCC"/>
 				<box>
@@ -403,6 +403,13 @@
 					<font fontName="Verdana" size="12"/>
 				</textElement>
 				<textFieldExpression class="java.lang.String"><![CDATA[$F{Message_C}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="5" y="273" width="564" height="20"/>
+				<textElement textAlignment="Center">
+					<font fontName="Verdana" size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[Need to cancel your hold (s)? http://www.poudrelibraries.org/borrow/holds-cancel.php]]></textFieldExpression>
 			</textField>
 		</band>
 	</title>
