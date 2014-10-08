@@ -400,7 +400,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement>
-					<font size="12"/>
+					<font fontName="Verdana" size="12"/>
 				</textElement>
 				<textFieldExpression class="java.lang.String"><![CDATA[$F{Message_C}]]></textFieldExpression>
 			</textField>
