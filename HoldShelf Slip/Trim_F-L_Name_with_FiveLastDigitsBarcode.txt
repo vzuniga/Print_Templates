@@ -1,0 +1,127 @@
+﻿
+From: Yabut, Melvyn [mailto:Melvyn.Yabut@mountainview.gov] 
+Sent: Thursday, August 21, 2014 7:36 PM
+To: Sierra Users List
+Subject: RE: RE:[sierra] Print templates - Java expressions
+
+Hi Dan,
+
+Thanks! It worked. 
+
+For those who might be interested the expression I got working is
+
+($F{v_p_name} .trim().substring (0,1))
++ ($F{v_p_name}.contains(", ") 
+? ($F{v_p_name}.length()>($F{v_p_name}.indexOf(',')+3) 
+? $F{v_p_name}.trim().substring($F{v_p_name}.indexOf(',')+2,$F{v_p_name}.indexOf(',')+3) 
+: $F{v_p_name} .trim().substring($F{v_p_name}.indexOf(',')+2))
+: (""))
+.toUpperCase()
++ $F{v_p_barcode} .substring (5)
+
+Smith, John with patron barcode 1234567890 = SJ67890
+
+Line 1 print the first letter of the last name from the patron name field
+Lines 2-6 patron name contains comma and space - go to 2nd character after comma and print first letter (this will be the first letter of the name)
+Line 7 make it upper case
+Line 8 add the last five digits of the patron barcode
+
+
+Melvyn
+
+
+Melvyn Yabut - Technology Librarian
+City of Mountain View Public Library
+585 Franklin St. Mountain View, CA 94041
+(650) 526.7024 | melvyn.yabut@mountainview.gov
+
+________________________________________
+From: Dan McMahon [dmcmahon@marinet.info]
+Sent: Thursday, August 21, 2014 2:42 PM
+To: Sierra Users List
+Subject: RE: RE:[sierra] Print templates - Java expressions
+
+I just did something like this last week. (I limited the first name on the hold slip to 3 characters, but same approach.) I use a separate text box for first name, and what it has is:
+
+($F{v_p_name}.contains(",") ?
+($F{v_p_name}.length()>($F{v_p_name}.indexOf(',')+5) ? $F{v_p_name}.substring($F{v_p_name}.indexOf(',')+1,$F{v_p_name}.indexOf(',')+5) :
+$F{v_p_name}.substring($F{v_p_name}.indexOf(',')+1))
+: "")
+
+It covers the case if there's no comma (or no first name) as the "last name" will print the whole name field in that box.
+
+Then, if the name is longer than 3 characters (the "+5" here) it prints those, but if it's shorter, it just prints what it has. (Yes, we have patrons with one and two character first names. They would print no slip, basically crashing, if the Java expression called for characters that don't exist. So I always check length before specifying to print a given length.)
+
+Change the +5 to +3 in both places, and it should get you just that first character, if it exists.
+
+McMahon, Dan
+MARINet, Novato CA
+
+
+-----Original Message-----
+From: Melvyn Yabut [mailto:melvyn.yabut@mountainview.gov]
+Sent: Thursday, August 21, 2014 1:59 PM
+To: Sierra Users List
+Subject: RE:[sierra] Print templates - Java expressions
+
+
+I submitted the post late in the day and did not put the correct expression.
+
+Here's the expression I used
+
+($F{v_p_name}.contains(",")
+
+? $F{v_p_name} .substring (0,1)
+
++ $F{v_p_name} .substring ( $F{v_p_name} .indexOf (",")+1 ,
+
+: $F{v_p_name} .substring (0,2))
+
+.toUpperCase()
+
++ $F{v_p_barcode} .substring (5)
+
+or look for patron name with comma, get the first letter, then jump to the letter after the comma. Change to all uppercase and add the last five digits of the patron barcode.
+
+However, it printed Y MELVYN12345 - or the first letter+ the complete first name+ the last five digits.
+
+We want to do first letter of last name + first letter of first name + last five digits of barcode 0r YM12345
+
+I added this $F{v_p_name} .indexOf(",")+2).trim().substring(0,2)
+
+
+So it is now,
+
+
+($F{v_p_name}.contains(",")
+
+? $F{v_p_name} .substring (0,1)
+
++ $F{v_p_name} .substring ( $F{v_p_name} .indexOf (",")+1,
+
+$F{v_p_name} .indexOf(",")+2).trim().substring(0,2)
+
+: $F{v_p_name} .substring (0,2))
+
+.toUpperCase()
+
++ $F{v_p_barcode} .substring (5)
+
+
+It compiled without error on iReport. However, Sierra spit out the document has been rendered but cannot be printed error.
+
+In other words, it did not work. It worked before I added the new code, but it is not capturing just the first letter of the first name, but the complete name. Anyone has done something similar?
+
+Sorry for the confusion.
+
+Thanks!
+
+Melvyn
+---
+You are currently subscribed to sierra as: dmcmahon@marinet.info To unsubscribe send a blank email to leave-538844-26606.dd4378fa6376a85a4cafc940fbc289f0@listserv.iii.com
+
+---
+You are currently subscribed to sierra as: melvyn.yabut@mountainview.gov
+To unsubscribe send a blank email to leave-538845-31646.a7be1228195896ae985f9c015fbe7af8@listserv.iii.com
+
+--- You are currently subscribed to sierra as: vzuniga@poudrelibraries.org To unsubscribe send a blank email to leave-538847-30167.865476c5e0cd0523e326757deceaae4a@listserv.iii.com
