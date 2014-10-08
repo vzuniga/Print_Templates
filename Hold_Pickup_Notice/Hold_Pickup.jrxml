@@ -2,6 +2,9 @@
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Hold_Pickup" pageWidth="612" pageHeight="792" columnWidth="572" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
 	<property name="ireport.scriptlethandling" value="0"/>
 	<property name="ireport.encoding" value="UTF-8"/>
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
 	<import value="net.sf.jasperreports.engine.*"/>
 	<import value="java.util.*"/>
 	<import value="net.sf.jasperreports.engine.data.*"/>
@@ -251,7 +254,7 @@
 	<title>
 		<band height="265" splitType="Stretch">
 			<staticText>
-				<reportElement key="staticText-11" mode="Opaque" x="234" y="0" width="335" height="93" backcolor="#CCCCCC"/>
+				<reportElement key="staticText-11" mode="Opaque" x="305" y="0" width="266" height="93" backcolor="#CCCCCC"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -262,16 +265,16 @@
 				<text><![CDATA[]]></text>
 			</staticText>
 			<image>
-				<reportElement key="image-1" x="5" y="0" width="229" height="93"/>
+				<reportElement key="image-1" x="5" y="0" width="300" height="76"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
-				<imageExpression class="java.lang.String"><![CDATA["columns.gif"]]></imageExpression>
+				<imageExpression class="java.lang.String"><![CDATA["http://www.poudrelibraries.org/common/images/logo.gif"]]></imageExpression>
 			</image>
-			<textField evaluationTime="Report" pattern="MM/dd/yyyy" isBlankWhenNull="false">
+			<textField evaluationTime="Report" pattern="EEEEE dd MMMMM yyyy" isBlankWhenNull="false">
 				<reportElement key="textField" x="5" y="93" width="229" height="29"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -337,7 +340,7 @@
 				<textFieldExpression class="java.lang.String"><![CDATA[$F{Patron_Address_Line3_C}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement key="staticText-23" x="260" y="18" width="275" height="54"/>
+				<reportElement key="staticText-23" x="320" y="18" width="215" height="54"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
