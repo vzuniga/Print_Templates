@@ -579,7 +579,15 @@
 		<band height="12" splitType="Stretch"/>
 	</pageFooter>
 	<lastPageFooter>
-		<band height="30" splitType="Stretch"/>
+		<band height="30" splitType="Stretch">
+			<textField>
+				<reportElement x="54" y="10" width="459" height="20"/>
+				<textElement>
+					<font fontName="Verdana" size="14"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[Questions? Please call the Answer Center at  (970) 221-6740]]></textFieldExpression>
+			</textField>
+		</band>
 	</lastPageFooter>
 	<summary>
 		<band splitType="Stretch"/>
