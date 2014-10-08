@@ -579,60 +579,7 @@
 		<band height="12" splitType="Stretch"/>
 	</pageFooter>
 	<lastPageFooter>
-		<band height="30" splitType="Stretch">
-			<staticText>
-				<reportElement key="staticText-40" x="5" y="5" width="83" height="20"/>
-				<box>
-					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-				</box>
-				<textElement>
-					<font size="12"/>
-				</textElement>
-				<text><![CDATA[Notice Text #]]></text>
-			</staticText>
-			<staticText>
-				<reportElement key="staticText-41" x="139" y="5" width="103" height="20"/>
-				<box>
-					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-				</box>
-				<textElement>
-					<font size="12"/>
-				</textElement>
-				<text><![CDATA[Print Sequence #]]></text>
-			</staticText>
-			<textField isBlankWhenNull="true">
-				<reportElement key="textField-42" x="88" y="5" width="51" height="20"/>
-				<box>
-					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-				</box>
-				<textElement>
-					<font size="12"/>
-				</textElement>
-				<textFieldExpression class="java.lang.String"><![CDATA[$F{Text_Number_C}]]></textFieldExpression>
-			</textField>
-			<textField isBlankWhenNull="true">
-				<reportElement key="textField-43" x="242" y="5" width="55" height="20"/>
-				<box>
-					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-				</box>
-				<textElement>
-					<font size="12"/>
-				</textElement>
-				<textFieldExpression class="java.lang.String"><![CDATA[$F{Print_Sequence_C}]]></textFieldExpression>
-			</textField>
-		</band>
+		<band height="30" splitType="Stretch"/>
 	</lastPageFooter>
 	<summary>
 		<band splitType="Stretch"/>
