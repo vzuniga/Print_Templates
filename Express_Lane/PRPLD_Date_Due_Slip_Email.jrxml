@@ -227,8 +227,8 @@
 	<title>
 		<band height="214" splitType="Stretch">
 			<image scaleImage="RealSize" isUsingCache="true" isLazy="true">
-				<reportElement x="0" y="29" width="215" height="62"/>
-				<imageExpression class="java.lang.String"><![CDATA["http://www.poudrelibraries.org/images/logo.jpg"]]></imageExpression>
+				<reportElement x="0" y="29" width="300" height="76"/>
+				<imageExpression class="java.lang.String"><![CDATA["http://www.poudrelibraries.org/common/images/logo.gif"]]></imageExpression>
 			</image>
 			<textField evaluationTime="Report" pattern="EEEEE dd MMMMM yyyy" isBlankWhenNull="false">
 				<reportElement key="textField" x="66" y="0" width="149" height="29"/>
