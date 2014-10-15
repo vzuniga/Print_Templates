@@ -407,7 +407,7 @@
 			<textField>
 				<reportElement x="5" y="273" width="564" height="20"/>
 				<textElement textAlignment="Center">
-					<font fontName="Verdana" size="12"/>
+					<font fontName="SansSerif" size="12"/>
 				</textElement>
 				<textFieldExpression class="java.lang.String"><![CDATA[Need to cancel your hold (s)? http://www.poudrelibraries.org/borrow/holds-cancel.php]]></textFieldExpression>
 			</textField>
@@ -590,7 +590,7 @@
 			<textField>
 				<reportElement x="54" y="10" width="459" height="20"/>
 				<textElement>
-					<font fontName="Verdana" size="14"/>
+					<font fontName="SansSerif" size="14"/>
 				</textElement>
 				<textFieldExpression class="java.lang.String"><![CDATA[Questions? Please call the Answer Center at  (970) 221-6740]]></textFieldExpression>
 			</textField>
