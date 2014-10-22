@@ -273,7 +273,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<imageExpression class="java.lang.String"><![CDATA["http://www.poudrelibraries.org/common/images/logo.gif"]]></imageExpression>
-				<hyperlinkReferenceExpression><![CDATA["http://www.poudrelibraries.org"]]></hyperlinkReferenceExpression>
+				<hyperlinkReferenceExpression><![CDATA["http://www.poudrelibraries.org/espanol/"]]></hyperlinkReferenceExpression>
 			</image>
 			<textField pattern="" isBlankWhenNull="true">
 				<reportElement key="textField-2" x="49" y="136" width="251" height="22"/>
@@ -326,7 +326,7 @@
 				<textElement markup="none">
 					<font size="14"/>
 				</textElement>
-				<text><![CDATA[(970) 221-6740 | ]]></text>
+				<text><![CDATA[(970) 221-6740 ]]></text>
 			</staticText>
 			<textField hyperlinkType="Reference">
 				<reportElement x="169" y="286" width="126" height="34" forecolor="#0066FF"/>
@@ -344,12 +344,12 @@
 				<text><![CDATA[Need to cancel a hold?]]></text>
 			</staticText>
 			<textField hyperlinkType="Reference">
-				<reportElement x="119" y="104" width="178" height="20" forecolor="#0066FF"/>
+				<reportElement x="119" y="104" width="269" height="20" forecolor="#0066FF"/>
 				<textElement markup="none">
 					<font size="14" isUnderline="true"/>
 				</textElement>
-				<textFieldExpression class="java.lang.String"><![CDATA["www.poudrelibraries.org"]]></textFieldExpression>
-				<hyperlinkReferenceExpression><![CDATA["http://www.poudrelibraries.org"]]></hyperlinkReferenceExpression>
+				<textFieldExpression class="java.lang.String"><![CDATA["http://www.poudrelibraries.org/espanol/"]]></textFieldExpression>
+				<hyperlinkReferenceExpression><![CDATA["http://www.poudrelibraries.org/espanol/"]]></hyperlinkReferenceExpression>
 			</textField>
 		</band>
 	</title>
