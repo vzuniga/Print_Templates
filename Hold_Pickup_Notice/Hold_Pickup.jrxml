@@ -301,7 +301,7 @@
 				</textElement>
 				<text><![CDATA[Hold Pickup Notice]]></text>
 			</staticText>
-			<textField isBlankWhenNull="true">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
 				<reportElement key="textField-44" x="5" y="169" width="564" height="43"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
