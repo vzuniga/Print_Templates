@@ -264,7 +264,7 @@
 				<textElement/>
 				<text><![CDATA[]]></text>
 			</staticText>
-			<image>
+			<image isLazy="true">
 				<reportElement key="image-1" x="5" y="0" width="300" height="76"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -328,17 +328,17 @@
 				<text><![CDATA[(970) 221-6740 | www.poudrelibraries.org]]></text>
 			</staticText>
 			<textField hyperlinkType="Reference">
-				<reportElement x="168" y="226" width="71" height="20"/>
+				<reportElement x="172" y="226" width="126" height="34" forecolor="#0066FF"/>
 				<textElement markup="none">
-					<font size="12"/>
+					<font size="16" isUnderline="true"/>
 				</textElement>
 				<textFieldExpression class="java.lang.String"><![CDATA["Click Here"]]></textFieldExpression>
 				<hyperlinkReferenceExpression><![CDATA["http://www.poudrelibraries.org/borrow/holds-cancel.php"]]></hyperlinkReferenceExpression>
 			</textField>
 			<staticText>
-				<reportElement x="34" y="226" width="134" height="20"/>
+				<reportElement x="6" y="226" width="164" height="34"/>
 				<textElement>
-					<font size="12"/>
+					<font size="16"/>
 				</textElement>
 				<text><![CDATA[Need to cancel a hold?]]></text>
 			</staticText>
