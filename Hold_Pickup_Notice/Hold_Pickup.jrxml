@@ -321,11 +321,11 @@
 				<text><![CDATA[Dear:]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="6" y="104" width="299" height="20"/>
+				<reportElement x="6" y="104" width="98" height="20"/>
 				<textElement markup="none">
 					<font size="12"/>
 				</textElement>
-				<text><![CDATA[(970) 221-6740 | www.poudrelibraries.org]]></text>
+				<text><![CDATA[(970) 221-6740 |]]></text>
 			</staticText>
 			<textField hyperlinkType="Reference">
 				<reportElement x="172" y="226" width="126" height="34" forecolor="#0066FF"/>
@@ -342,6 +342,14 @@
 				</textElement>
 				<text><![CDATA[Need to cancel a hold?]]></text>
 			</staticText>
+			<textField hyperlinkType="Reference">
+				<reportElement x="104" y="104" width="143" height="20" forecolor="#0066FF"/>
+				<textElement markup="none">
+					<font size="12" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["www.poudrelibraries.org"]]></textFieldExpression>
+				<hyperlinkReferenceExpression><![CDATA["http://www.poudrelibraries.org"]]></hyperlinkReferenceExpression>
+			</textField>
 		</band>
 	</title>
 	<pageHeader>
