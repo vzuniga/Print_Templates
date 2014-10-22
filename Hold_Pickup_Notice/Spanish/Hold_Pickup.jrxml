@@ -4,7 +4,7 @@
 	<property name="ireport.encoding" value="UTF-8"/>
 	<property name="ireport.zoom" value="1.0"/>
 	<property name="ireport.x" value="0"/>
-	<property name="ireport.y" value="0"/>
+	<property name="ireport.y" value="8"/>
 	<import value="net.sf.jasperreports.engine.*"/>
 	<import value="java.util.*"/>
 	<import value="net.sf.jasperreports.engine.data.*"/>
@@ -252,7 +252,7 @@
 		<band splitType="Stretch"/>
 	</background>
 	<title>
-		<band height="329" splitType="Stretch">
+		<band height="358" splitType="Stretch">
 			<staticText>
 				<reportElement key="staticText-11" mode="Opaque" x="316" y="0" width="253" height="93" backcolor="#CCCCCC"/>
 				<box>
@@ -276,7 +276,7 @@
 				<hyperlinkReferenceExpression><![CDATA["http://www.poudrelibraries.org/espanol/"]]></hyperlinkReferenceExpression>
 			</image>
 			<textField pattern="" isBlankWhenNull="true">
-				<reportElement key="textField-2" x="49" y="136" width="251" height="22"/>
+				<reportElement key="textField-2" x="49" y="136" width="251" height="33"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -302,7 +302,7 @@
 				<text><![CDATA[Hold Pickup Notice]]></text>
 			</staticText>
 			<textField isBlankWhenNull="true">
-				<reportElement key="textField-44" x="5" y="169" width="564" height="102"/>
+				<reportElement key="textField-44" x="5" y="169" width="564" height="145"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -315,7 +315,7 @@
 				<textFieldExpression class="java.lang.String"><![CDATA[$F{Message_C}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="6" y="135" width="41" height="22"/>
+				<reportElement x="6" y="135" width="41" height="34"/>
 				<textElement markup="none">
 					<font size="16"/>
 				</textElement>
@@ -329,7 +329,7 @@
 				<text><![CDATA[(970) 221-6740 ]]></text>
 			</staticText>
 			<textField hyperlinkType="Reference">
-				<reportElement x="270" y="286" width="126" height="34" forecolor="#0066FF"/>
+				<reportElement x="270" y="321" width="126" height="34" forecolor="#0066FF"/>
 				<textElement markup="none">
 					<font size="16" isUnderline="true"/>
 				</textElement>
@@ -337,7 +337,7 @@
 				<hyperlinkReferenceExpression><![CDATA["http://www.poudrelibraries.org/borrow/holds-cancel.php"]]></hyperlinkReferenceExpression>
 			</textField>
 			<staticText>
-				<reportElement x="3" y="286" width="262" height="34"/>
+				<reportElement x="3" y="321" width="262" height="34"/>
 				<textElement>
 					<font size="16"/>
 				</textElement>
@@ -398,7 +398,7 @@
 				<textElement>
 					<font size="14"/>
 				</textElement>
-				<text><![CDATA[UBICACION:]]></text>
+				<text><![CDATA[RECOGER EN:]]></text>
 			</staticText>
 			<staticText>
 				<reportElement key="staticText-30" x="6" y="65" width="132" height="20"/>
@@ -476,7 +476,7 @@
 				<textElement>
 					<font size="14"/>
 				</textElement>
-				<text><![CDATA[HELD THROUGH:]]></text>
+				<text><![CDATA[HASTA:]]></text>
 			</staticText>
 			<textField isBlankWhenNull="true">
 				<reportElement key="textField-41" x="138" y="105" width="389" height="20"/>
