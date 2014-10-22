@@ -320,6 +320,13 @@
 				</textElement>
 				<textFieldExpression class="java.lang.String"><![CDATA[Dear:]]></textFieldExpression>
 			</textField>
+			<textField>
+				<reportElement x="6" y="104" width="299" height="20"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[(970) 221-6740 | www.poudrelibraries.org]]></textFieldExpression>
+			</textField>
 		</band>
 	</title>
 	<pageHeader>
