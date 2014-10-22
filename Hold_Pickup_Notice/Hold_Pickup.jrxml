@@ -344,7 +344,7 @@
 				<text><![CDATA[Need to cancel a hold?]]></text>
 			</staticText>
 			<textField hyperlinkType="Reference">
-				<reportElement x="132" y="104" width="178" height="20" forecolor="#0066FF"/>
+				<reportElement x="134" y="104" width="178" height="20" forecolor="#0066FF"/>
 				<textElement markup="none">
 					<font size="14" isUnderline="true"/>
 				</textElement>
