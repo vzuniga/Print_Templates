@@ -252,7 +252,7 @@
 		<band splitType="Stretch"/>
 	</background>
 	<title>
-		<band height="286" splitType="Stretch">
+		<band height="329" splitType="Stretch">
 			<staticText>
 				<reportElement key="staticText-11" mode="Opaque" x="316" y="0" width="253" height="93" backcolor="#CCCCCC"/>
 				<box>
@@ -302,7 +302,7 @@
 				<text><![CDATA[Hold Pickup Notice]]></text>
 			</staticText>
 			<textField isBlankWhenNull="true">
-				<reportElement key="textField-44" x="5" y="169" width="564" height="63"/>
+				<reportElement key="textField-44" x="5" y="169" width="564" height="102"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -329,7 +329,7 @@
 				<text><![CDATA[(970) 221-6740 | ]]></text>
 			</staticText>
 			<textField hyperlinkType="Reference">
-				<reportElement x="169" y="246" width="126" height="34" forecolor="#0066FF"/>
+				<reportElement x="169" y="286" width="126" height="34" forecolor="#0066FF"/>
 				<textElement markup="none">
 					<font size="16" isUnderline="true"/>
 				</textElement>
@@ -337,7 +337,7 @@
 				<hyperlinkReferenceExpression><![CDATA["http://www.poudrelibraries.org/borrow/holds-cancel.php"]]></hyperlinkReferenceExpression>
 			</textField>
 			<staticText>
-				<reportElement x="3" y="246" width="164" height="34"/>
+				<reportElement x="3" y="286" width="164" height="34"/>
 				<textElement>
 					<font size="16"/>
 				</textElement>
