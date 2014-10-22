@@ -316,14 +316,14 @@
 			</textField>
 			<staticText>
 				<reportElement x="6" y="135" width="41" height="22"/>
-				<textElement textAlignment="Right" markup="none">
+				<textElement markup="none">
 					<font size="16"/>
 				</textElement>
 				<text><![CDATA[Dear:]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="6" y="104" width="126" height="20"/>
-				<textElement textAlignment="Right" markup="none">
+				<reportElement x="6" y="104" width="108" height="20"/>
+				<textElement markup="none">
 					<font size="14"/>
 				</textElement>
 				<text><![CDATA[(970) 221-6740 | ]]></text>
@@ -344,7 +344,7 @@
 				<text><![CDATA[Need to cancel a hold?]]></text>
 			</staticText>
 			<textField hyperlinkType="Reference">
-				<reportElement x="134" y="104" width="178" height="20" forecolor="#0066FF"/>
+				<reportElement x="119" y="104" width="178" height="20" forecolor="#0066FF"/>
 				<textElement markup="none">
 					<font size="14" isUnderline="true"/>
 				</textElement>
