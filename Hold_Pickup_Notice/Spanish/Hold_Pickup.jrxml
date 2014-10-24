@@ -317,7 +317,7 @@
 				<textElement>
 					<font size="16"/>
 				</textElement>
-				<text><![CDATA[Necesita cancelar una reservacion?]]></text>
+				<text><![CDATA[Necesita cancelar una reservación?]]></text>
 			</staticText>
 			<textField hyperlinkType="Reference">
 				<reportElement x="119" y="104" width="269" height="20" forecolor="#0066FF"/>
