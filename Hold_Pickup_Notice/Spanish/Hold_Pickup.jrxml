@@ -264,8 +264,8 @@
 				<imageExpression class="java.lang.String"><![CDATA["http://www.poudrelibraries.org/common/images/logo.gif"]]></imageExpression>
 				<hyperlinkReferenceExpression><![CDATA["http://www.poudrelibraries.org/espanol/"]]></hyperlinkReferenceExpression>
 			</image>
-			<textField pattern="" isBlankWhenNull="true">
-				<reportElement key="textField-2" x="49" y="136" width="251" height="33"/>
+			<textField isStretchWithOverflow="true" pattern="" isBlankWhenNull="true">
+				<reportElement key="textField-2" x="49" y="136" width="339" height="33"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -348,7 +348,7 @@
 				<textElement>
 					<font size="14"/>
 				</textElement>
-				<text><![CDATA[TITULO:]]></text>
+				<text><![CDATA[TÍTULO:]]></text>
 			</staticText>
 			<staticText>
 				<reportElement key="staticText-25" positionType="Float" x="5" y="25" width="72" height="20"/>
