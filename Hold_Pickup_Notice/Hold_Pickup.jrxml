@@ -506,9 +506,6 @@
 	<pageFooter>
 		<band height="12" splitType="Stretch"/>
 	</pageFooter>
-	<lastPageFooter>
-		<band height="30" splitType="Stretch"/>
-	</lastPageFooter>
 	<summary>
 		<band splitType="Stretch"/>
 	</summary>
