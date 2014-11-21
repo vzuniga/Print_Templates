@@ -310,7 +310,7 @@
 					<font size="14" isUnderline="true"/>
 				</textElement>
 				<textFieldExpression class="java.lang.String"><![CDATA["Información aquí"]]></textFieldExpression>
-				<hyperlinkReferenceExpression><![CDATA["http://www.poudrelibraries.org/borrow/holds-cancel.php"]]></hyperlinkReferenceExpression>
+				<hyperlinkReferenceExpression><![CDATA["www.poudrelibraries.org/espanol/renewals.php"]]></hyperlinkReferenceExpression>
 			</textField>
 			<staticText>
 				<reportElement x="3" y="357" width="262" height="34"/>
