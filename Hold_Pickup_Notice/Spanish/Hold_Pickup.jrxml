@@ -307,13 +307,13 @@
 			<textField hyperlinkType="Reference">
 				<reportElement x="270" y="329" width="118" height="34" forecolor="#0066FF"/>
 				<textElement markup="none">
-					<font size="16" isUnderline="true"/>
+					<font size="14" isUnderline="true"/>
 				</textElement>
-				<textFieldExpression class="java.lang.String"><![CDATA["Click Here"]]></textFieldExpression>
+				<textFieldExpression class="java.lang.String"><![CDATA["Información aquí"]]></textFieldExpression>
 				<hyperlinkReferenceExpression><![CDATA["http://www.poudrelibraries.org/borrow/holds-cancel.php"]]></hyperlinkReferenceExpression>
 			</textField>
 			<staticText>
-				<reportElement x="3" y="329" width="262" height="34"/>
+				<reportElement x="3" y="329" width="267" height="34"/>
 				<textElement>
 					<font size="16"/>
 				</textElement>
