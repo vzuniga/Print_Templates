@@ -326,7 +326,7 @@
 				<textElement markup="none">
 					<font size="14"/>
 				</textElement>
-				<text><![CDATA[(970) 221-6740 | ]]></text>
+				<text><![CDATA[(970) 221-6740]]></text>
 			</staticText>
 			<textField hyperlinkType="Reference">
 				<reportElement x="171" y="315" width="126" height="34" forecolor="#0066FF"/>
