@@ -360,7 +360,7 @@
 		<band splitType="Stretch"/>
 	</columnHeader>
 	<detail>
-		<band height="130" splitType="Stretch">
+		<band height="136" splitType="Stretch">
 			<staticText>
 				<reportElement key="staticText-24" stretchType="RelativeToTallestObject" x="5" y="45" width="72" height="20"/>
 				<box>
@@ -504,7 +504,7 @@
 		<band splitType="Stretch"/>
 	</columnFooter>
 	<pageFooter>
-		<band height="12" splitType="Stretch"/>
+		<band height="17" splitType="Stretch"/>
 	</pageFooter>
 	<summary>
 		<band splitType="Stretch"/>
