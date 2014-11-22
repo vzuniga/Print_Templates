@@ -476,7 +476,7 @@
 				<textElement>
 					<font size="14"/>
 				</textElement>
-				<text><![CDATA[HELD THROUGH:]]></text>
+				<text><![CDATA[PICKUP BY:]]></text>
 			</staticText>
 			<textField isBlankWhenNull="true">
 				<reportElement key="textField-41" x="138" y="105" width="389" height="20"/>
