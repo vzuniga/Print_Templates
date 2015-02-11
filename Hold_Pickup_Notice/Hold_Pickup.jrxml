@@ -439,7 +439,7 @@
 				</textElement>
 				<textFieldExpression class="java.lang.String"><![CDATA[$F{Item_Author}]]></textFieldExpression>
 			</textField>
-			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+			<textField isBlankWhenNull="true">
 				<reportElement key="textField-30" x="138" y="45" width="431" height="20"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
