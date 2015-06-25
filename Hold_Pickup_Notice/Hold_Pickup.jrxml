@@ -252,7 +252,7 @@
 		<band splitType="Stretch"/>
 	</background>
 	<title>
-		<band height="349" splitType="Stretch">
+		<band height="318" splitType="Stretch">
 			<staticText>
 				<reportElement key="staticText-11" mode="Opaque" x="316" y="0" width="253" height="93" backcolor="#CCCCCC"/>
 				<box>
@@ -327,21 +327,6 @@
 					<font size="14"/>
 				</textElement>
 				<text><![CDATA[(970) 221-6740]]></text>
-			</staticText>
-			<textField hyperlinkType="Reference">
-				<reportElement x="171" y="315" width="126" height="34" forecolor="#0066FF"/>
-				<textElement markup="none">
-					<font size="16" isUnderline="true"/>
-				</textElement>
-				<textFieldExpression class="java.lang.String"><![CDATA["Click Here"]]></textFieldExpression>
-				<hyperlinkReferenceExpression><![CDATA["http://www.poudrelibraries.org/borrow/holds-cancel.php"]]></hyperlinkReferenceExpression>
-			</textField>
-			<staticText>
-				<reportElement x="5" y="315" width="164" height="34"/>
-				<textElement>
-					<font size="16"/>
-				</textElement>
-				<text><![CDATA[Need to cancel a hold?]]></text>
 			</staticText>
 			<textField hyperlinkType="Reference">
 				<reportElement x="119" y="104" width="178" height="20" forecolor="#0066FF"/>
