@@ -226,9 +226,10 @@
 	</background>
 	<title>
 		<band height="214" splitType="Stretch">
-			<image scaleImage="RealSize" isUsingCache="true" isLazy="true">
+			<image scaleImage="RealSize" isUsingCache="true" isLazy="true" hyperlinkType="Reference">
 				<reportElement x="0" y="29" width="300" height="76"/>
 				<imageExpression class="java.lang.String"><![CDATA["http://www.poudrelibraries.org/common/images/logo.gif"]]></imageExpression>
+				<hyperlinkReferenceExpression><![CDATA["http://www.poudrelibraries.org"]]></hyperlinkReferenceExpression>
 			</image>
 			<textField evaluationTime="Report" pattern="EEEEE dd MMMMM yyyy" isBlankWhenNull="false">
 				<reportElement key="textField" x="66" y="0" width="149" height="29"/>
@@ -289,10 +290,13 @@
 				</textElement>
 				<text><![CDATA[or]]></text>
 			</staticText>
-			<textField pattern="">
+			<textField pattern="" hyperlinkType="Reference">
 				<reportElement x="228" y="133" width="197" height="20" forecolor="#0066CC"/>
-				<textElement markup="none"/>
+				<textElement markup="none">
+					<font isUnderline="true"/>
+				</textElement>
 				<textFieldExpression class="java.lang.String"><![CDATA["www.poudrelibraries.org"]]></textFieldExpression>
+				<hyperlinkReferenceExpression><![CDATA["http://www.poudrelibraries.org"]]></hyperlinkReferenceExpression>
 			</textField>
 		</band>
 	</title>
@@ -318,7 +322,7 @@
 				<text><![CDATA[TITLE]]></text>
 			</staticText>
 			<staticText>
-				<reportElement key="staticText-25" positionType="Float" x="5" y="60" width="63" height="20"/>
+				<reportElement key="staticText-25" positionType="Float" x="5" y="74" width="63" height="20"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -331,7 +335,7 @@
 				<text><![CDATA[BARCODE]]></text>
 			</staticText>
 			<staticText>
-				<reportElement key="staticText-43" positionType="Float" x="5" y="93" width="63" height="20"/>
+				<reportElement key="staticText-43" positionType="Float" x="5" y="107" width="63" height="20"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -343,8 +347,8 @@
 				</textElement>
 				<text><![CDATA[DUE DATE]]></text>
 			</staticText>
-			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
-				<reportElement key="textField-46" x="5" y="29" width="333" height="21"/>
+			<textField isBlankWhenNull="true">
+				<reportElement key="textField-46" x="5" y="29" width="333" height="40"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -357,7 +361,7 @@
 				<textFieldExpression class="java.lang.String"><![CDATA[$F{Item_Title}]]></textFieldExpression>
 			</textField>
 			<textField isStretchWithOverflow="true" pattern="EEEEE dd MMMMM yyyy" isBlankWhenNull="true">
-				<reportElement key="textField-48" x="96" y="92" width="242" height="21" forecolor="#0066FF"/>
+				<reportElement key="textField-48" x="96" y="106" width="242" height="21" forecolor="#0066FF"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -370,7 +374,7 @@
 				<textFieldExpression class="java.lang.String"><![CDATA[$F{Item_Due_Date}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="false">
-				<reportElement key="textField" x="96" y="60" width="242" height="21"/>
+				<reportElement key="textField" x="96" y="74" width="242" height="21"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -383,12 +387,12 @@
 				<textFieldExpression class="java.lang.String"><![CDATA[$F{Item_Barcode}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="5" y="126" width="139" height="20" forecolor="#FFFFFF"/>
+				<reportElement x="5" y="140" width="139" height="20" forecolor="#FFFFFF"/>
 				<textElement markup="none"/>
 				<text><![CDATA[What: Return Library Item (s)]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="5" y="148" width="184" height="20" forecolor="#FFFFFF"/>
+				<reportElement x="5" y="162" width="184" height="20" forecolor="#FFFFFF"/>
 				<textElement markup="none"/>
 				<text><![CDATA[Location: Poudre River Library District District]]></text>
 			</staticText>
