@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.0.0.final using JasperReports Library version 6.0.0  -->
-<!-- 2015-11-04T17:19:47 -->
+<!-- 2015-11-05T11:29:32 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Overdue" pageWidth="612" pageHeight="792" columnWidth="572" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="20bfdab8-a92a-463f-9381-146e449d42dc">
 	<property name="ireport.scriptlethandling" value="0"/>
 	<property name="ireport.encoding" value="UTF-8"/>
@@ -256,16 +256,6 @@
 	</background>
 	<title>
 		<band height="279" splitType="Stretch">
-			<staticText>
-				<reportElement key="staticText-11" mode="Opaque" x="310" y="0" width="259" height="93" backcolor="#CCCCCC" uuid="90dae15a-e206-44ee-9175-048f83a7a8ca"/>
-				<box>
-					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-				</box>
-				<text><![CDATA[]]></text>
-			</staticText>
 			<textField evaluationTime="Report" pattern="MM/dd/yyyy" isBlankWhenNull="false">
 				<reportElement key="textField" x="5" y="93" width="229" height="29" uuid="3f2d7028-92bf-4396-8d36-6d8ec1aed335"/>
 				<box>
@@ -331,19 +321,6 @@
 				</textElement>
 				<textFieldExpression><![CDATA[$F{Patron_Address_Line3_C}]]></textFieldExpression>
 			</textField>
-			<staticText>
-				<reportElement key="staticText-23" x="310" y="18" width="259" height="54" uuid="efede863-4e12-48b1-90f5-e185574c66ee"/>
-				<box>
-					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-				</box>
-				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font size="26" isBold="false" isUnderline="false" pdfFontName="Helvetica"/>
-				</textElement>
-				<text><![CDATA[Overdue Notice [Print]]]></text>
-			</staticText>
 			<textField isBlankWhenNull="true">
 				<reportElement key="textField-24" x="5" y="129" width="285" height="22" uuid="8480d36b-9241-4f28-8c5a-abc5eff3eda8"/>
 				<box>
