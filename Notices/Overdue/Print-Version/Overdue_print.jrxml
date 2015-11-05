@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.0.0.final using JasperReports Library version 6.0.0  -->
-<!-- 2015-11-05T11:29:32 -->
+<!-- 2015-11-05T11:32:45 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Overdue" pageWidth="612" pageHeight="792" columnWidth="572" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="20bfdab8-a92a-463f-9381-146e449d42dc">
 	<property name="ireport.scriptlethandling" value="0"/>
 	<property name="ireport.encoding" value="UTF-8"/>
@@ -373,16 +373,6 @@
 				</textElement>
 				<textFieldExpression><![CDATA[$F{Message_C}]]></textFieldExpression>
 			</textField>
-			<image isLazy="true">
-				<reportElement key="image-1" x="5" y="0" width="300" height="76" uuid="777fcbfd-62e3-4338-9c30-aa32558c1cbc"/>
-				<box>
-					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
-				</box>
-				<imageExpression><![CDATA["http://www.poudrelibraries.org/common/images/logo.gif"]]></imageExpression>
-			</image>
 		</band>
 	</title>
 	<pageHeader>
