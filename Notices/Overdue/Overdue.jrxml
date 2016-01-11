@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.0.0.final using JasperReports Library version 6.0.0  -->
-<!-- 2016-01-11T12:49:19 -->
+<!-- 2016-01-11T13:01:50 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Overdue" pageWidth="612" pageHeight="792" columnWidth="572" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="20bfdab8-a92a-463f-9381-146e449d42dc">
 	<property name="ireport.scriptlethandling" value="0"/>
 	<property name="ireport.encoding" value="UTF-8"/>
@@ -287,7 +287,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement>
-					<font size="12"/>
+					<font size="14"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{Patron_Name_C}]]></textFieldExpression>
 			</textField>
@@ -300,7 +300,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement>
-					<font size="12"/>
+					<font size="14"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{Patron_Address_Line1_C}]]></textFieldExpression>
 			</textField>
@@ -313,7 +313,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement>
-					<font size="12"/>
+					<font size="14"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{Patron_Address_Line2_C}]]></textFieldExpression>
 			</textField>
@@ -326,7 +326,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement>
-					<font size="12"/>
+					<font size="14"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{Patron_Address_Line3_C}]]></textFieldExpression>
 			</textField>
@@ -352,7 +352,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement>
-					<font size="12"/>
+					<font size="14"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{Library_Address_Line1_C}]]></textFieldExpression>
 			</textField>
@@ -365,7 +365,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement>
-					<font size="12"/>
+					<font size="14"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{Library_Address_Line2_C}]]></textFieldExpression>
 			</textField>
@@ -378,7 +378,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement>
-					<font size="12"/>
+					<font size="14"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{Library_Address_Line3_C}]]></textFieldExpression>
 			</textField>
@@ -432,7 +432,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement>
-					<font size="12"/>
+					<font size="14"/>
 				</textElement>
 				<text><![CDATA[TITLE:]]></text>
 			</staticText>
@@ -445,7 +445,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement>
-					<font size="12"/>
+					<font size="14"/>
 				</textElement>
 				<text><![CDATA[AUTHOR:]]></text>
 			</staticText>
@@ -458,7 +458,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement>
-					<font size="12"/>
+					<font size="14"/>
 				</textElement>
 				<text><![CDATA[CALL #: NUMBER:]]></text>
 			</staticText>
@@ -471,7 +471,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement>
-					<font size="12"/>
+					<font size="14"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{Item_Call_Number}]]></textFieldExpression>
 			</textField>
@@ -484,7 +484,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement>
-					<font size="12"/>
+					<font size="14"/>
 				</textElement>
 				<text><![CDATA[BARCODE:]]></text>
 			</staticText>
@@ -497,7 +497,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement>
-					<font size="12"/>
+					<font size="14"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{Item_Barcode}]]></textFieldExpression>
 			</textField>
@@ -510,7 +510,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement>
-					<font size="12"/>
+					<font size="14"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{Item_Author}]]></textFieldExpression>
 			</textField>
@@ -523,7 +523,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement>
-					<font size="12"/>
+					<font size="14"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{Item_Title}]]></textFieldExpression>
 			</textField>
@@ -536,7 +536,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement>
-					<font size="12"/>
+					<font size="14"/>
 				</textElement>
 				<text><![CDATA[ITEM #]]></text>
 			</staticText>
@@ -549,7 +549,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement>
-					<font size="12"/>
+					<font size="14"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{Item_ID}]]></textFieldExpression>
 			</textField>
@@ -575,7 +575,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement>
-					<font size="12"/>
+					<font size="14"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{Item_Location}]]></textFieldExpression>
 			</textField>
@@ -588,7 +588,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement>
-					<font size="12"/>
+					<font size="14"/>
 				</textElement>
 				<text><![CDATA[DUE DATE:]]></text>
 			</staticText>
@@ -601,7 +601,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement>
-					<font size="12"/>
+					<font size="14"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{Item_Due_Date}]]></textFieldExpression>
 			</textField>
@@ -624,7 +624,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement>
-					<font size="12"/>
+					<font size="14"/>
 				</textElement>
 				<text><![CDATA[Notice Text #]]></text>
 			</staticText>
@@ -637,7 +637,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement>
-					<font size="12"/>
+					<font size="14"/>
 				</textElement>
 				<text><![CDATA[Print Sequence #]]></text>
 			</staticText>
@@ -650,7 +650,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement>
-					<font size="12"/>
+					<font size="14"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{Text_Number_C}]]></textFieldExpression>
 			</textField>
