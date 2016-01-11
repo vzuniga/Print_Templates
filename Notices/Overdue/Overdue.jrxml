@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.0.0.final using JasperReports Library version 6.0.0  -->
-<!-- 2015-09-30T12:10:54 -->
+<!-- 2016-01-11T12:49:19 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Overdue" pageWidth="612" pageHeight="792" columnWidth="572" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="20bfdab8-a92a-463f-9381-146e449d42dc">
 	<property name="ireport.scriptlethandling" value="0"/>
 	<property name="ireport.encoding" value="UTF-8"/>
@@ -405,6 +405,14 @@
 				</box>
 				<imageExpression><![CDATA["http://www.poudrelibraries.org/common/images/logo.gif"]]></imageExpression>
 			</image>
+			<textField hyperlinkType="Reference">
+				<reportElement x="250" y="93" width="178" height="20" forecolor="#0066FF" uuid="0bbd7277-665b-407f-ab86-ad3fb95ff068"/>
+				<textElement markup="none">
+					<font size="14" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["www.poudrelibraries.org"]]></textFieldExpression>
+				<hyperlinkReferenceExpression><![CDATA["http://www.poudrelibraries.org"]]></hyperlinkReferenceExpression>
+			</textField>
 		</band>
 	</title>
 	<pageHeader>
